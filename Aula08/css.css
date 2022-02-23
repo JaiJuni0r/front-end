@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Shizuru', sans-serif;
+    font-weight: 200;
+    font-size: 50;
+    font-style: italic;
+}
+
+.background1{
+    background-image: url('https://pbs.twimg.com/media/EH1bAB7WoAkTBz_.png');
+    border: solid 1px black;
+    height: 550px; 
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+
+.altura{
+    height: 800px;
+}
