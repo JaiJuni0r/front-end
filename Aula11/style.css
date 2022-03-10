@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.tag{
+    background-color: aqua;
+}
+
+.cabecalho h1{
+    background-color: #00669F;
+    width: 100%;
+    height: 80px;
+    top: 38px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.principal{
+    background-color: #005B55;
+    width: 100%;
+    height: 80px;
+    top: 38px;
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+.secao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    width: 660px;
+    margin: 120px ;
+    gap: 10px;
+}
+
+.imagens1{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 550px;
+    height: 420px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.657);
+    border-radius: 20px;
+    background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2019/02/One-Punch-Man.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagens2{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 550px;
+    height: 420px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.657);
+    border-radius: 20px;
+    background-image: url(https://i.pinimg.com/originals/ab/80/45/ab8045ea2f65ee32415f56c8970527b8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagens3{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 550px;
+    height: 420px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.657);
+    border-radius: 20px;
+    background-image: url(https://pa1.narvii.com/6949/062dedca8ea6b79f5fbcdf4a51b72f063ffcbb99r1-3264-3264_hq.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagens4{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 550px;
+    height: 420px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.657);
+    border-radius: 20px;
+    background-image: url(https://nerdhits.com.br/wp-content/uploads/2021/04/mikasa-ackerman-melhor-que-eren-yeager-shingeki-no-kyojin-1200x900.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagens5{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 550px;
+    height: 420px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.657);
+    border-radius: 20px;
+    background-image: url(https://lh3.googleusercontent.com/-cQu-ZHrNsZI/YCBJUA23qWI/AAAAAAAACYE/BQR1aurqRusC-32gOjI5FfglbEi4gnwiwCLcBGAsYHQ/w6620px-h360/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagens6{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 550px;
+    height: 420px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.657);
+    border-radius: 20px;
+    background-image: url(https://ovicio.com.br/wp-content/uploads/2020/11/20201129-20200919-sword-art-online.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+.card {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(46, 182, 125, 0.671);
+    border-radius: 20px;
+}
+
+.card .caixatexto{
+    width: auto;
+    height: auto;
+    border: solid 3px rgb(228, 226, 226);
+    background-color: rgba(28, 104, 72, 0.671);
+}
+
+p{
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    font-size: 50px;
+}
