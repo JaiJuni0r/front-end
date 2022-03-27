@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Roboto&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', monospace;
+}
+
+body {
+    background-image: url(img/backgroungd.png);
+    background-repeat: contain;
+    background-size: 100% 100%;
+}
+
+/* ------------------HEADER---------------------------- */
+.barra-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: rgba(255, 217, 0, 0.836);
+    font-size: 30px;
+    margin: 10px auto;
+
+}
+
+.barra-nav a {
+    text-decoration: none;
+    color: rgba(255, 217, 0, 0.836);
+    
+}
+
+.barra-nav * {
+    margin: 5px;
+}
+
+.barra-nav img {
+    width: 50px;
+    height: 50px;
+}
+
+.itens-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.icone-titulo {
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------BODY---------------------------- */
+
+.Sobre{
+    background-color: rgba(0, 0, 0, 0.822);
+    color: rgba(255, 217, 0, 0.836);
+    border: 4px solid;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px auto;
+    height: 25vh;
+    width: 45vw;
+}
+
+.titulo-planetas{
+font-size: 30px;
+color: rgba(0, 0, 0, 0.822);  
+text-align: center;
+}
+
+.galeria{
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+    margin: 0% auto;
+}
+
+.galeria .planetas{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+}
+
+.galeria .planetas img{
+    width: 19.9%;
+}
+
+@keyframes animacao{
+    0% {margin-left: 0%;}
+    10% {margin-left: 0%;}
+    15% {margin-left: -100%;}
+    30% {margin-left: -100%;}
+    35% {margin-left: -200%;}
+    50% {margin-left: -200%;}
+    55% {margin-left: -300%;}
+    70% {margin-left: -300%;}
+    75% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}
+
+.text-box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.box1{
+    background-color: rgba(255, 255, 255, 0.685);
+    border: 5px solid;
+    color: rgba(0, 0, 0, 0.822);
+    font-size: 25px;
+    width: 250px;
+    height: auto;
+}
+
+.box2{
+    background-color: rgba(255, 255, 255, 0.685);
+    border: 5px solid;
+    color: rgba(0, 0, 0, 0.822);
+    font-size: 25px;
+    width: 250px;
+    height: auto;
+}
+
+.box3{
+    background-color: rgba(255, 255, 255, 0.685);
+    border: 5px solid;
+    color: rgba(0, 0, 0, 0.822);
+    font-size: 25px;
+    width: 250px;
+    height: auto;
+}
+
+.video{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+
+.desc-video{
+    background-color: rgba(0, 0, 0, 0.822);
+    font-size: 50px;
+    color: rgba(255, 217, 0, 0.836);
+    text-align: center;
+}
+
+/* ------------------FOOTER---------------------------- */
+footer{
+    align-items: flex-end;
+    margin: 10px auto;
+}
+
+.footer-style {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: rgba(255, 217, 0, 0.836);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0px auto 0px auto;
+    align-content: flex-end;
+    align-items: center;
+}
+
+.icone-footer {
+    display: flex;
+    align-items: center;
+}
+
+.icone-footer img {
+    height: 60px;
+    width: 60px;
+    
+}
+
+.itens-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.itens-footer a {
+    text-decoration: none;
+    color: rgba(255, 217, 0, 0.836);
+    font-size: 20px;
+}
+
+/* ------------------------- MEDIA 412/ ------------------------------- */
+@media (max-width: 414px){
+
+    .barra-nav {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.822);
+        color: rgba(255, 217, 0, 0.836);
+        width: 414px;
+        height: 100%;
+        font-size: 20px;
+        margin: auto;
+    }
+    
+    .barra-nav a {
+        text-decoration: none;
+        color: rgba(255, 217, 0, 0.836);
+ 
+    }
+    
+    .barra-nav * {
+        margin: 5px;
+    }
+    
+    .barra-nav img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .itens-nav {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .icone-titulo {
+        display: flex;
+        align-items: center;
+    }
+
+/* ---------------------------------------------- */
+
+    .Sobre{
+        background-color: rgba(0, 0, 0, 0.822);
+        color: rgba(255, 217, 0, 0.836);
+        border: 4px solid;
+        font-size: 35px;
+        text-align: center;
+        margin: 10px auto;
+        height: auto;
+        width: auto;
+    }
+
+
+    .titulo-planetas{
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.822);  
+        text-align: center;
+        background-color: aliceblue;
+        width: auto;
+        padding: auto auto 10px;
+        }
+        
+        .galeria{
+            width: 410px;
+            height: 390px;
+            overflow: hidden;
+            margin: 0% auto;
+        }
+        
+        .galeria .planetas{
+            width: 500%;
+            animation-name: animacao;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            
+        }
+        
+        .galeria .planetas img{
+            width: 19.9%;
+        }
+        
+        @keyframes animacao{
+            0% {margin-left: 0%;}
+            20% {margin-left: 0%;}
+            25% {margin-left: -100%;}
+            45% {margin-left: -100%;}
+            50% {margin-left: -200%;}
+            70% {margin-left: -200%;}
+            75% {margin-left: -300%;}
+            95% {margin-left: -300%;}
+            100% {margin-left: -400%;}
+        }
+        
+        .text-box{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            padding: 10px 20px 10px 20px;
+        
+        }
+        /* ---------------------------------------------- */    
+        .box1{
+            background-color: rgba(255, 255, 255, 0.685);
+            border: 5px solid;
+            color: rgba(0, 0, 0, 0.822);
+            font-size: 15px;
+            width: 250px;
+            height: auto;
+        }
+        
+        .box2{
+            background-color: rgba(255, 255, 255, 0.685);
+            border: 5px solid;
+            color: rgba(0, 0, 0, 0.822);
+            font-size: 15px;
+            width: 250px;
+            height: auto;
+        }
+        
+        .box3{
+            background-color: rgba(255, 255, 255, 0.685);
+            border: 5px solid;
+            color: rgba(0, 0, 0, 0.822);
+            font-size: 15px;
+            width: 250px;
+            height: auto;
+        }
+        /* ---------------------------------------------- */
+          
+        .desc-video{
+            background-color: rgba(0, 0, 0, 0.822);
+            font-size: 30px;
+            color: rgba(255, 217, 0, 0.836);
+            text-align: center;
+            margin-top: 150px;
+            
+        }
+        .video{
+            display: flex;
+            padding: 30px;
+            justify-content: center;
+            align-items: center;    
+            flex-direction: column;
+            width: 410px;
+            height: 390px;
+            margin-bottom: 150px;
+        }
+        /* ---------------------------------------------- */
+
+        .footer-style {
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.822);
+            color: rgba(255, 217, 0, 0.836);
+            width: 414px;
+            height: 100%;
+            font-size: 20px;
+            margin: auto;
+
+        }
+        
+        .icone-footer {
+            display: flex;
+            align-items: center;
+        }
+        
+        .icone-footer img {
+            height: 60px;
+            width: 60px;
+            
+        }
+        
+        .itens-footer {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: auto auto 10px auto;
+        }
+        
+        .itens-footer a {
+            display: flex;
+            align-items: center;
+            color: rgba(255, 217, 0, 0.836);
+            font-size: 20px; 
+        }
+        
+}
